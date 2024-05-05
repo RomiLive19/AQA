@@ -1,4 +1,5 @@
 package lesson_5_1;
+
 /**
  * Lesson_5
  **/
@@ -20,7 +21,6 @@ public class Main {
         System.out.println("Сытость: " + cat.isFull());
 
         System.out.println();
-
 
         System.out.println("Всего животных: " + Animal.getCount());
         System.out.println("Всего собак: " + Dog.getCount());

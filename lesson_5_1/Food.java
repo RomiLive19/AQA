@@ -10,7 +10,7 @@ public class Food {
     public void addFood(int amount) {
         if (amount > 0) {
             food = food + amount;
-            System.out.println("Добавили " + amount +" еды."+" Стало " + food + " еды.");
+            System.out.println("Добавили " + amount + " еды." + " Стало " + food + " еды.");
         }
     }
 

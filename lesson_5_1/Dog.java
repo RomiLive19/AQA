@@ -23,7 +23,8 @@ public class Dog extends Animal {
             System.out.println(name + " не может проплыть больше 10 м.");
         }
         System.out.println();
-        }
+    }
+
     public static int getCount() {
         return count;
     }
