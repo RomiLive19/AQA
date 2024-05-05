@@ -1,8 +1,8 @@
 package lesson_5_1;
 
 public class Cat extends Animal {
-    private static int count = 0;
-    private boolean isFull = false;
+    public static int count = 0;
+    public boolean isFull = false;
 
     public Cat(String name) {
         super(name);

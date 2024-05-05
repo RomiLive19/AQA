@@ -1,7 +1,7 @@
 package lesson_5_1;
 
 public class Food {
-    private int food;
+    public int food;
 
     public Food(int food) {
         this.food = Math.max(food, 0);
