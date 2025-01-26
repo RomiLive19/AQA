@@ -1,13 +1,13 @@
 /**
  * Lesson7
  **/
+
 import lesson7.MyArrayDataException;
 import lesson7.MyArraySizeException;
 
 
 public class Main {
     public static void main(String[] args) {
-        // Пример массивов
         String[][] validArray = {
                 {"1", "1", "1", "1"},
                 {"1", "1", "1", "1"},
@@ -28,7 +28,6 @@ public class Main {
                 {"13", "14", "15", "16"}
         };
 
-        // Обработка массивов
         ArrayProcessor processor = new ArrayProcessor();
 
         try {
