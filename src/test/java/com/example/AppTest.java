@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AppTest {
     @Test
     public void testSelenium() {
-        // Укажите путь к драйверу ChromeDriver
         System.setProperty("webdriver.chrome.driver", "/Users/romi/Applications/Lesson_11_maven/chromedriver/chromedriver");
 
         WebDriver driver = new ChromeDriver();

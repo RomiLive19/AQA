@@ -12,24 +12,20 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <junit.version>5.8.1</junit.version>
-    <selenium.version>4.12.0</selenium.version>
   </properties>
 
   <dependencies>
-    <!-- JUnit 5 -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
-      <version>${junit.version}</version>
+      <version>5.8.1</version>
       <scope>test</scope>
     </dependency>
 
-    <!-- Selenium -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>${selenium.version}</version>
+      <version>4.12.0</version>
     </dependency>
 
   </dependencies>
