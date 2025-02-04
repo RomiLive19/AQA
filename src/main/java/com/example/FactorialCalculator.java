@@ -3,7 +3,7 @@ package com.example;
 public class FactorialCalculator {
     public static long factorial(int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("Число должно быть неотрицательным");
+            throw new IllegalArgumentException("Число неотрицательное");
         }
         long result = 1;
         for (int i = 2; i <= n; i++) {
